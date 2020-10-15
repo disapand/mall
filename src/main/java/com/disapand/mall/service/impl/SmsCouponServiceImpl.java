@@ -1,9 +1,9 @@
 package com.disapand.mall.service.impl;
 
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.disapand.mall.entity.SmsCoupon;
 import com.disapand.mall.mapper.SmsCouponMapper;
 import com.disapand.mall.service.ISmsCouponService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**
@@ -16,5 +16,4 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class SmsCouponServiceImpl extends ServiceImpl<SmsCouponMapper, SmsCoupon> implements ISmsCouponService {
-
 }

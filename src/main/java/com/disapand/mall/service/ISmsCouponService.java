@@ -1,7 +1,7 @@
 package com.disapand.mall.service;
 
-import com.disapand.mall.entity.SmsCoupon;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.disapand.mall.entity.SmsCoupon;
 
 /**
  * <p>
@@ -12,5 +12,4 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2020-10-13
  */
 public interface ISmsCouponService extends IService<SmsCoupon> {
-
 }
