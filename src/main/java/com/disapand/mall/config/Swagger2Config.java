@@ -1,7 +1,6 @@
 package com.disapand.mall.config;
 
 import com.github.xiaoymin.knife4j.spring.annotations.EnableKnife4j;
-import io.swagger.annotations.Api;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -13,7 +12,7 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
- * Swaggere2 配置文件
+ * Swagger2 配置文件
  * @author aoxiang-zhangqian
  */
 @Configuration
@@ -35,7 +34,6 @@ public class Swagger2Config {
         return new ApiInfoBuilder()
                 .title("mall 商城 Api 文档")
                 .description("接口文档")
-                .contact("disapand")
                 .version("1.0")
                 .build();
     }
